@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    font-family: rubik;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 95%;
+    position: relative;
+}
+.style-element-1{
+    position: absolute;
+    left: -200px;
+    top: -50px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: hsl(276, 55%, 52%);
+    width: 575px;
+    height: 600px;
+    z-index: -1;
+}
+.style-element-2{
+    position: absolute;
+    left: 1100px;
+    top: 30px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: hsla(276, 55%, 52%, 0.035);
+    width: 575px;
+    height: 600px;
+    z-index: -1;
+}
+.card-phone{
+    border: 10px solid white;
+    width: 310px;
+    height: 500px;
+    border-radius: 2rem;
+    overflow: hidden;
+    position: absolute;
+    left: 23%;
+    top: 35px;
+    box-shadow: 2px 5px 10px 5px hsla(271, 15%, 43%, 0.199);
+}
+main{
+    position: absolute;
+    left: 55%;
+    top: 170px;
+    width: 450px;
+}
+.title{
+    color: hsl(271, 36%, 24%);
+    font-weight: 500;
+    font-size: 40px;
+}
+.information{
+    color: hsl(270, 7%, 64%);
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+
+}
+
+
+.card-header{
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: hsl(270, 20%, 96%);
+    font-size: 12px;
+    position: relative;
+    height: 15%;
+    border-radius: 5px;
+}
+.card-top-design{
+    background-color: white;
+    width: 175px;
+    height: 30px;
+    border-radius: 1rem;
+    position: absolute;
+    top: -15px;
+    left: 60px;
+}
+.card-element-design{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 36px;
+    left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.card-element-design-2{
+    position: absolute;
+    left: 255px;
+    top: -4px;
+}
+.card-element-design-3{
+    position: absolute;
+    left: 255px;
+    top: 2px;
+}
+.person-1-name{
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.person-1-state{
+    position: absolute;
+    left: 75px;
+    top: 48px;
+    color: hsl(276, 100%, 81%);
+    font-size: 10px;
+}
+.samuel-avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 30px 0px 0px 35px;
+}
+.card-chat{
+    background-color: hsl(270, 20%, 96%);
+    width: 310px;
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(6, 15.3%);
+    grid-template-rows: repeat(19, 5.1%);
+    align-items: center;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.dog{
+    height: 55px;
+    border-radius: .7rem;
+    margin-left: 5px;
+}
+.person-1-1{
+    grid-area: 2/1/3/5;
+    border-radius: .9rem .9rem .9rem 0.2rem;
+    padding: 3px 0px 0px 5px;
+    margin-bottom: 10px;
+    height: 35px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsla(276, 55%, 52%, 0.082);
+}
+.person-1-2{
+    grid-area: 3/1/5/5;
+    border-radius: .9rem .9rem .9rem 0.2rem;
+    padding: 3px 0px 0px 5px;
+    height: 35px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsla(276, 55%, 52%, 0.082);
+
+}
+.person-2-1{
+    grid-area: 5/1/9/7;
+    padding-left: 85px;
+}
+.person-2-2{
+    grid-area: 9/3/10/7;
+    border-radius: .9rem .9rem .2rem 0.9rem;
+    padding: 3px 0px 0px 5px;
+    margin-bottom: 10px;
+    height: 35px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    box-shadow: 0px 3px 5px hsla(271, 15%, 43%, 0.199);
+    
+}
+.person-2-3{
+    grid-area: 10/4/12/7;
+    border-radius: .9rem .9rem .2rem 0.9rem;
+    padding: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    box-shadow: 0px 3px 5px hsla(271, 15%, 43%, 0.199);
+
+}
+.person-1-3{
+    grid-area: 12/1/15/5;
+    border-radius: .9rem .9rem .9rem 0.2rem;
+    padding: 5px 0px 0px 5px;
+    height: 50px;
+    margin-bottom: 15px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsla(276, 55%, 52%, 0.082);
+}
+.price-send-1{
+    grid-area: 15/1/17/5;
+    border-radius: .9rem .9rem .9rem 0.2rem;
+    padding: 8px 0px 0px 40px;
+    height: 37px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: white;
+    position: relative;
+}
+.price-design-element{
+    border: 2px solid rgba(240, 239, 240, 0.155);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 13px;
+}
+.price-29{
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.price-send-2{
+    grid-area: 17/1/19/5;
+    border-radius: .9rem .9rem .9rem 0.2rem;
+    padding: 10px 0px 0px 40px;
+    height: 37px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    color: white;  
+    position: relative;
+}
+.price-design-element-2{
+    border: 2px solid rgba(240, 239, 240, 0.155);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 13px;
+}
+.price-49{
+    margin-left: 28px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.send-chat{
+    grid-area: 19/1/20/7; 
+    padding: 10px 0px 0px 15px;
+    border-radius: 1rem;
+    height: 35px;
+    margin: 14px 0px 10px 0px;
+    background-color: white;
+    color: hsl(206, 6%, 79%);
+    position: relative;
+}
+.send-button{
+    border-radius: 1rem;
+    padding: 5px 12px;
+    font-weight: 500;
+    background-color: hsl(271, 36%, 24%);
+    color: white;
+    border-color: hsl(289, 100%, 72%);
+    position: absolute;
+    left: 240px;
+    top: 2px;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+}
+
+@media (max-width:1000px) {
+    
+    .card-phone{
+        position: absolute;
+        left: 15%
+    }
+    main{
+        width: 25%;
+        position: absolute;
+        top: 50px;
+        left: 75%;
+    }
+    .style-element-2{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    .style-element-2{
+        display: none;
+    }
+
+    main{
+        position: absolute;
+        top: 600px;
+        left: 135px;
+        width: 25%;
+    }
+
+    .information{
+        width: 310px;
+        text-align: center;
+        position: absolute;
+        left: -80px;
+        padding-bottom: 100px;
+    }
+}
